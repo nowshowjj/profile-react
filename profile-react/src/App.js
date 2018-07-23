@@ -1,22 +1,19 @@
 import React, { Component } from 'react';
-import { Col, Row, Container } from "./components/Grid";
-import './App.css';
-import { Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from "./pages/Home";
+import Projects from "./pages/projects";
+import Bio from "./pages/bio";
 
-class App extends Component {
-  render() {
-    return (
-<Container fluid>
-  <Row>
-		<Col size = "md-12">
-			<h1>Jose Ayala</h1>
-			<h3>A Portfolio</h3>
-			<h3><Link to="/projects/">Enter</Link></h3>
-    </Col>  
-  </Row>
-</Container>
-    );
-  }
-}
+const App = () => (
+  <Router>
+    <div>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/projects" component={Projects} />
+        <Route exact path="/bio" component={Bio} />
+      </Switch>
+    </div>
+  </Router>b
+);
 
 export default App;
