@@ -13,7 +13,7 @@ const App = () => (
         <Route exact path="/bio" component={Bio} />
       </Switch>
     </div>
-  </Router>b
+  </Router>
 );
 
 export default App;
