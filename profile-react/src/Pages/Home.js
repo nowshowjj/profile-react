@@ -12,4 +12,4 @@ const HomePage = () => (
   </Container>
 );
 
-export default AdminHome;
+export default HomePage;
