@@ -9,10 +9,10 @@ export default class HomePage extends Component {
         <Row>
             <Col lg-12>
                 <div id="content">
-                <h1>Jose Ayala</h1>
-                <h3>A Portfolio</h3>
-                <hr/>
-                <h3><a class="enter" href = "projects.html">Enter</a></h3>
+                <h1 className="title">Jose Ayala</h1>
+                <h3 className="portfolio">A Portfolio</h3>
+                <hr className="hr"/>
+                <h3><a className="enter" href = "projects.html">Enter</a></h3>
                 </div>
             </Col>
         </Row>
