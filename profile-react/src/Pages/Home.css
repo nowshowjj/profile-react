@@ -1,17 +1,19 @@
 body {
-	background: url("../assets/jjnyc.jpg");
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-	font-family: Lato;
+  background: url("../assets/jjnyc.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: Lato;
 }
 
-#content {
-	text-align: center;
-	padding-top: 35%;
-	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-				 0px 8px 13px rgba(0,0,0,0.1),
-				 0px 18px 23px rgba(0,0,0,0.1);
+.content {
+  text-align: center;
+  padding-top: 35%;
+  text-shadow: 0 4px 3px rgba(0, 0, 0, 0.4), 0 8px 13px rgba(0, 0, 0, 0.1),
+    0 18px 23px rgba(0, 0, 0, 0.1);
 }
 
+.overlay {
+  background: rgba(0, 0, 0, 0.2);
+}
