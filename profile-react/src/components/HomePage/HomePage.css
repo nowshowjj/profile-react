@@ -1,24 +1,29 @@
 .title {
-	font-weight: 500;
-    font-size: 4.5em;
-    opacity: 0.65;
-    color: white;
-    font-family: Lato;
-
+  font-weight: 500;
+  font-size: 4.5em;
+  opacity: 0.85;
+  color: #fafafa;
+  font-family: Lato;
 }
 
 .portfolio {
-    opacity: 0.65;
-    font-family: Lato;
-    color: white;
-    font-family: Lato;
+  opacity: 0.85;
+  font-family: Lato;
+  color: #fafafa;
+  font-family: Lato;
 }
 
 .hr {
-        border-top: 1px solid #8c8b8b;
-        border-bottom: 1px solid #fff;
-    }
+  border-top: 1px solid #8c8b8b;
+  border-bottom: 1px solid;
+}
 
 .enter {
-        font-size: 1.5em;
-    }
+  font-size: 1.5em;
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.enter:hover {
+  text-decoration: none;
+}

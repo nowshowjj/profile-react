@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./Pages/Home";
-import Projects from "./Pages/Projects";
+import Projects from "./Pages/projects";
 // import Bio from "./Pages/bio";
 
 const App = () => (
